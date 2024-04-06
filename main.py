@@ -5,7 +5,7 @@
 # pip install streamlit streamlit-lottie pandas
 # To run the app: streamlit run main.py
 
-import streamlit as st
+import streamlit as st # Cheat sheet here: https://docs.streamlit.io/develop/quick-reference/cheat-sheet
 import pandas as pd   # for data manipulation
 import plost    # for plots/charts
 from streamlit_lottie import st_lottie # for animations
@@ -100,6 +100,8 @@ value = st.toggle("<-- toggle button") # Question: How do you move this button t
 # print("Value:", value)
 fl = st.file_uploader("Upload a file", type=["csv", "txt"])
 
+
+#Choose a animation here: https://lottiefiles.com/featured
 lottie_url = "https://lottie.host/4a8322b4-981b-4d72-8309-0adbb6305351/a4zyCyhizk.json"
 st_lottie(lottie_url, width=200, height=200)
 
