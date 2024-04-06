@@ -5,6 +5,8 @@
 # pip install streamlit streamlit-lottie pandas
 # To run the app: streamlit run main.py
 
+# Python version 3.8 to 3.12 required for streamlit.
+
 import streamlit as st # Cheat sheet here: https://docs.streamlit.io/develop/quick-reference/cheat-sheet
 import pandas as pd   # for data manipulation
 import plost    # for plots/charts
