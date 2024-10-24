@@ -21,7 +21,7 @@ st.sidebar.title('Settings')
 
 # Metrics
 col1, col2, col3 = st.columns(3)
-
+col1.metric("Temperature", "70 °F", "1.2 °F")
 ### STEP 2 ###
 
 # Load weather data
